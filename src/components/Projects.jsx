@@ -14,6 +14,9 @@ const Projects = () => {
                         <div className = "w-full max-w-xl lg:w-3/4">
                             <h6 className = "mb-2 font-semibold"> {project.title} </h6>
                             <p className="mb-4 text-neutral-400">
+                                <a style={{ color: '#20B2AA' }} href = {project.link}> Click here to visit site.</a>
+                            </p>
+                            <p className="mb-4 text-neutral-400">
                                 {project.description}
                             </p>
                             {project.technologies.map((tech, index) => (

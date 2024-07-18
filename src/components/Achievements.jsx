@@ -15,6 +15,11 @@ export const Achievements = () => {
                             <p className="mb-4 text-neutral-400">
                                 {achievement.description}
                             </p>
+                            <p className="mb-4 text-neutral-400">
+                                <a style={{ color: '#20B2AA' }} href = {achievement.link}> Click here to know more.</a>
+                            </p>
+
+                            
                         </div>
                     </div>
                 ))}

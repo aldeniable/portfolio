@@ -63,6 +63,7 @@ export const PROJECTS = [
       react on the posts of others, much like a simple version of Twitter. 
       `,
      technologies: ["Django","React","postgreSQL","Python","JavaScript","CSS","SQL","API"],
+     link: `https://ivos-app-ui.onrender.com`
   },
   {
     title: "Developer Portfolio",
@@ -70,6 +71,7 @@ export const PROJECTS = [
     description:
       "Personal developer portfolio to showcase background, experience, projects, education, and achievements.",
     technologies: ["React", "Vite", "Tailwind CSS", "JavaScript", "CSS"],
+    link: `https://ubiquitous-parfait-b4cfea.netlify.app`
   },
 ];
 
@@ -95,7 +97,8 @@ export const ACHIEVEMENTS = [
     title: "Presentor at ISIITA 2024",
     description: `On January 16, 2024, I was chosen by my professor, Dr. Robert Roxas, to present my undergraduate Machine Learning thesis on International Symposium on Innovation in Information Tech and Application (ISIITA 2024),
     entitled Music Genre Classification of Philippine Music, alongside fellow students and researchers from different countries accross the globe such as South Korea, US, Uzbekistan etc.`,
-    image: isiita
+    image: isiita,
+    link: `https://isiita.org/`
   },
 ];
 
