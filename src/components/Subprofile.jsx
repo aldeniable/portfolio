@@ -1,5 +1,5 @@
 import isiita1 from "../assets/isiita1.jpg";
-import { ABOUT_TEXT } from "../data/data.js";
+import { ABOUT_TEXT, ABOUT_TEXT2 } from "../data/data.js";
 
 const Subprofile = () => {
 
@@ -15,6 +15,9 @@ const Subprofile = () => {
                 <div className = "w-full lg:w-1/2">
                     <div className = "flex justify-center lg:justify-start">
                         <p className = "my-2 max-w-xl py-6"> {ABOUT_TEXT}</p>
+                    </div>
+                    <div className = "flex justify-center lg:justify-start">
+                        <p className = "my-2 max-w-xl py-6"> {ABOUT_TEXT2}</p>
                     </div>
                 </div>
             </div>

@@ -1,9 +1,10 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { SiDjango } from "react-icons/si";
+import dotnet from "../assets/dotnet.png";
+import codeigniter from "../assets/codeigniter.png";
 import { SiDotnet } from "react-icons/si";
-import { SiMysql } from "react-icons/si";
-import { SiMicrosoftsqlserver } from "react-icons/si";
-import { DiPostgresql } from "react-icons/di";
+import sql from "../assets/sql.png";
+import winforms from "../assets/winforms.png"
 
 const Technologies = () => {
 
@@ -18,16 +19,13 @@ const Technologies = () => {
                     <SiDjango className = "text-7xl text-green-600"/>
                 </div>
                 <div className = "rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiDotnet className = "text-7xl text-white"/>
+                    <SiDotnet className = "text-7xl text-white-600"/>
                 </div>
                 <div className = "rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiMysql className = "text-7xl text-orange-400"/>
+                    <img  src = {codeigniter} alt = "logo" className = "mx-0 w-20" />
                 </div>
                 <div className = "rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiMicrosoftsqlserver className = "text-7xl text-red-400"/>
-                </div>
-                <div className = "rounded-2xl border-4 border-neutral-800 p-4">
-                    <DiPostgresql className = "text-7xl text-cyan-400"/>
+                    <img  src = {sql} alt = "logo" className = "mx-0 w-20" />
                 </div>
             </div>
 
