@@ -83,7 +83,7 @@ export const PROJECTS = [
     description:
       "This is a personal developer portfolio to showcase my background, experience, projects, education, and achievements.",
     technologies: ["React", "Vite", "Tailwind CSS", "JavaScript", "CSS"],
-    link: `https://ubiquitous-parfait-b4cfea.netlify.app`
+    link: `https://alden-deloyola.netlify.app/`
   },
   {
     title: "Music Genre Classification of Philippine Music",
